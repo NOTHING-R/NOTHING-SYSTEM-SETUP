@@ -23,12 +23,15 @@ reboot
 After installing and enabling sddm you have to customize your sddm manager.
 First you have to copy the nothing_sddm_theme to /usr/share/sddm/themes/ folder.
 #+begin_src shell
-sudo cp -r dotfiels/sddm/nothing_sddm_theme/ /usr/share/sddm/themes/ 
+sudo cp -r nothing_sddm_theme/ /usr/share/sddm/themes/ 
 #+end_src
 
 Then you have to change the theme by eiditing the /etc/sddm.conf.d/theme.conf.user file:-
 #+begin_src shell
-vim /etc/sddm.conf.d/theme.conf.user #replace vim with your text editor
+sudo su
+mkdir -p /etc/sddm.conf.d/
+touch -p /etc/sddm.conf.d/theme.conf.user
+cp -r theme.conf.user /etc/sddm.conf.d/
 #+end_src
 The should look like this:-
 #+begin_src shell
