@@ -31,7 +31,7 @@ For more information visit [[https://github.com/Jguer/yay][yay]].
 
 For work with arch and emacs you have to download some package and fonts.
 #+begin_src shell
-sudo pacman -S nerd-fonts firefox emacs obs-studio nitrogen feh sddm nm-applet net-tools fastfetch kitty 
+sudo pacman -S nerd-fonts firefox emacs obs-studio nitrogen feh sddm net-tools fastfetch kitty 
 picom pavucontrol flameshot thunar vlc vim make cmake
 #+end_src
 
