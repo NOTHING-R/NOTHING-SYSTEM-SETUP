@@ -10,7 +10,7 @@ cd ..
 
 echo "Installing require application..."
 
-sudo pacman -S xorg xorg-xinit xorg-server i3 sddm emacs alacritty nitrogen stow picom qt5-declarative qt5-quickcontrols2 qt5-graphicaleffects
+sudo pacman -S xorg xorg-xinit xorg-server xorg-xrandr i3 sddm emacs alacritty nitrogen stow picom qt5-declarative qt5-quickcontrols2 qt5-graphicaleffects
 
 echo "Done!!"
 
