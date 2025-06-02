@@ -19,7 +19,7 @@ In arch you can find all the software from the pacman and aur.
 
 ** AUR setup (yay)
 #+begin_src shell
-sudo pacman -S --needed git base-devel go
+sudo pacman -s --needed git base-devel go
 git clone https://aur.archlinux.org/yay.git
 cd yay
 makepkg -si
